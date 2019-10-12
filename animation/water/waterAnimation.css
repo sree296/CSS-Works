@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+html, body{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    height:100%;
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
+}
+.container{
+    width:100%;
+    height:100%;
+    background: #2c3e5066;
+    position: relative;
+}
+.animate{
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+.container h1{
+    color:#ffffff36;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 100px;
+    letter-spacing: 5px;
+    background-image: url(water-tran.png);
+    -webkit-background-clip: text;
+    background-clip:text;
+    background-repeat-y: no-repeat;
+    background-position-y: 70%;
+    animation: water 15s infinite;
+}
+h2{
+    color:#ffffff;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+@media (max-width:767px){
+    .container h1{
+        font-size: 52px;
+    } 
+}
+@keyframes water{
+    from{
+        background-position: left 0 top 70%;
+    }
+    to{
+        background-position: left 1000px top 70%;
+    }
+}
