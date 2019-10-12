@@ -17,12 +17,11 @@ html, body{
     top:40px;
     padding:5px;
 }
-a{
+a.color-selector{
 height:40px;
 width:40px;
 margin:5px;
 float: left;
-background-color:green;
 text-indent: -99999px;
 cursor: pointer;
 }
@@ -43,4 +42,11 @@ cursor: pointer;
 }
 #orange{
     background-color:#e67e22;
+}
+.hit-counter{
+    height: 25px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
 }

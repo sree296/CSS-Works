@@ -53,3 +53,10 @@ p{
         background-image: url(img1.jpg);
     }
 }
+.hit-counter{
+    height: 25px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}

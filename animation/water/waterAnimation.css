@@ -53,3 +53,10 @@ h2{
         background-position: left 1000px top 70%;
     }
 }
+.hit-counter{
+    height: 25px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
