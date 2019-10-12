@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Color Change On Click</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="colorChange.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <a onClick="colorChange('red')" id="red">#e74c3c</a>
+            <a onClick="colorChange('blue')" id="blue">#3498db</a>
+            <a onClick="colorChange('green')" id="green">#2ecc71</a>
+            <a onClick="colorChange('gray')" id="gray">#34495e</a>
+            <a onClick="colorChange('yellow')" id="yellow">#f1c40f</a>
+            <a onClick="colorChange('orange')" id="orange">#e67e22</a>
+        </div>
+        <script type="text/javascript">
+            function colorChange(id){
+                document.body.style.background = document.getElementById(id).innerHTML;
+            }
+        </script>
+    </body>
+</html>
