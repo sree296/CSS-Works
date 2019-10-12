@@ -14,7 +14,7 @@ News Letter:
 
 Water Animation:
 
-4.https://sree296.github.io/css-learnings/animation/water/waterAnimation.html
+4. https://sree296.github.io/css-learnings/animation/water/waterAnimation.html
 
 
   
