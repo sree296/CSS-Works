@@ -16,5 +16,9 @@ Water Animation:
 
 4. https://sree296.github.io/css-learnings/animation/water/waterAnimation.html
 
+Color Change On Click:
+
+5. https://sree296.github.io/css-learnings/animation/color-change/colorChange.html
+
 
   
