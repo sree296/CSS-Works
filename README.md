@@ -11,3 +11,10 @@ Full Page Landing Work:
 News Letter:
 
 3. https://sree296.github.io/css-learnings/news-letter/newsLetter.html
+
+Water Animation:
+
+4.https://sree296.github.io/css-learnings/animation/water/waterAnimation.html
+
+
+  
