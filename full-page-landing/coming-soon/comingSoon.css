@@ -54,3 +54,10 @@ html, body{
 .menu:hover span.s2{
 width: 100%;
 }
+.hit-counter{
+    height: 25px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
