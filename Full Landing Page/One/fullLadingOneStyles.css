@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+}
+html, body{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    height:100%;
+    background: url(landing-page-1.jpg) no-repeat;
+    background-size: cover;
+}
+.container{
+    width:100%;
+    height:100%;
+    background: #2c3e5080;
+    position: relative;
+}
+.container h1{
+    color:#ffffff;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 60px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container h1 span{
+    display: block;
+    background:#2ecc71;
+    padding:0 10px;
+}
+.menu{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    overflow: hidden;
+    width: 50px;
+    cursor: pointer;
+}
+.menu span{
+    height:3px;
+    display: block;
+    margin:6px;
+    background: #ffffff;
+    transition: 0.4s all;
+}
+.menu span.s1, .menu span.s3{
+    width:100%;
+}
+.menu span.s2{
+    width:70%;
+}
+.menu:hover span.s2{
+width: 100%;
+}
